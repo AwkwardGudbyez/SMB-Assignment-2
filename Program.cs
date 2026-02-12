@@ -86,7 +86,17 @@ else
                                        // input character description
                     Console.WriteLine("Enter description:");
                     string? Description = Console.ReadLine();
-                    Console.WriteLine($"{Id}, {Name}, {Description}");
+                    // Input Species
+                    Console.WriteLine("Enter species:");
+                    string? SpeciesInput = Console.ReadLine();
+                    // Input First Appearance
+                    Console.WriteLine("Enter first appearance:");
+                    string? FirstAppearanceInput = Console.ReadLine();
+                    // Input Year Created
+                    Console.WriteLine("Enter year created:");
+                    string? YearCreatedInput = Console.ReadLine();
+
+                    Console.WriteLine($"{Id}, {Name}, {Description}, {SpeciesInput}, {FirstAppearanceInput}, {YearCreatedInput}");
                 }
             } else {
                 logger.Error("You must enter a name");
