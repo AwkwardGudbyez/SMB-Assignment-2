@@ -5,7 +5,7 @@ class Character
     public string Description { get; set; } = string.Empty;
     public string Species { get; set; } = string.Empty;
     public string FirstAppearance { get; set; } = string.Empty;
-    public string YearCreated { get; set; } = string.Empty;
+    public int YearCreated { get; set; }
 
     public string Display()
     {
